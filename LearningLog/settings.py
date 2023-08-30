@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-%k-laeq3-u(@fe=+s)g9lq=0)!e11jhby_xcpbzwfk923_y3y-
 DEBUG = True
 
 # vercel_app/settings.py
-ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
+ALLOWED_HOSTS = ['localhost', '.vercel.app']
 
 
 # Application definition
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'LearningLog.wsgi.application'
+WSGI_APPLICATION = 'LearningLog.wsgi.app'
 
 
 # Database
